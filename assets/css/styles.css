@@ -79,6 +79,9 @@ p {
   margin-bottom: 15px;
   border-radius: 50%;
 }
+.twitter ul li {
+  margin-bottom: 0px !important;
+}
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
   font-size: 18px;
