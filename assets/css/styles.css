@@ -34,6 +34,12 @@ a:focus {
 p {
   line-height: 1.5;
 }
+a.btn.btn-default{
+  color: #545E6C !important;
+}
+a.btn.btn-default:hover{
+  color: #6441a5 !important;
+}
 .wrapper {
   background: #0094ff;
   max-width: 960px;
