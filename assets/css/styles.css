@@ -85,7 +85,7 @@ a.btn.btn-default:hover{
   margin-bottom: 15px;
   border-radius: 50%;
 }
-ul {
+.list-unstyled {
   list-style-type: none;
 }
 .twitter ul li {
