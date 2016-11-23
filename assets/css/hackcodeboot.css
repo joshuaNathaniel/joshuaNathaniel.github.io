@@ -1,0 +1,46 @@
+body {
+  background-image: url("../img/hcbpixel.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #000;
+}
+@media (min-width: 300px) {
+  body {
+    background-position: center 40%; 
+  }
+}
+@media (min-width: 720px) {
+  body {
+    background-position: center 35%; 
+  }
+}
+#logo {
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: 2.25em;
+}
+.bold {
+  font-weight: bold;
+}
+.grey{
+  color: #C3C1C1;
+}
+.red{
+  color: #CC4C5F;
+}
+.white{
+  color: #FFFFFF;
+}
+a .white:focus, a .white:hover{
+  color: #C3C1C1;
+}
+ul > li:nth-child(odd) > a{
+  color: #CC4C5F;
+}
+ul > li:nth-child(even) > a{
+  color: #FFFFFF;
+}
+ul > li > a:focus, ul > li > a:hover {
+  color: #C3C1C1;
+  text-decoration: underline;
+}
