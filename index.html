@@ -13,8 +13,10 @@
     <link href="assets/css/hackcodeboot.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css' />
+    <script src="vendor/js/particles.min.js" type="text/javascript"></script>           
   </head>
 <body>
+  <div id="particles-js" style="position: fixed; z-index: 2; height: 100%; width: 100%"></div>
   <nav class="navbar navbar-custom">
     <a class="nav-link" href="http://www.hackcodeboot.com">
       <span id='logo' class='white text-xs-center'>HACK<span class='red'>CODE</span>BOOT</span>
@@ -43,4 +45,9 @@
     </ul>
   </nav>
 </body>
+<script>
+  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+  particlesJS.load('particles-js', 'assets/particles.json', function() {
+  });
+</script>
 </html>

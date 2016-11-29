@@ -44,3 +44,7 @@ ul > li > a:focus, ul > li > a:hover {
   color: #C3C1C1;
   text-decoration: underline;
 }
+nav{
+  position: relative; 
+  z-index: 999;
+}
